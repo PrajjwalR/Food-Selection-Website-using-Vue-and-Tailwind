@@ -1,10 +1,8 @@
 <template>
-  <div class="bg-gray-100 h-full">
-    <Navbar></Navbar>
-    <main>
-      <router-view></router-view>
-    </main>
-  </div>
+  <Navbar></Navbar>
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
 
 <script setup>
